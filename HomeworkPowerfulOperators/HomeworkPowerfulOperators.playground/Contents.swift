@@ -50,3 +50,9 @@ print(calculateAverachPrice(traveledKilometers: 100.00, fuelSpent: 8.5, fuelPric
 
 // Task 5
 // Make a function to print information about fuel consumption and the date of fueling.
+func createFuelConsumptionInformation(traveledKilometers: Double, fuelSpent: Double, fuelingData: String) -> String{
+    
+    return "Traveling \(traveledKilometers) kilometers, fuel consumption \(fuelSpent), last date of fueling \(fuelingData)"
+}
+
+print(createFuelConsumptionInformation(traveledKilometers: 315.200, fuelSpent: 23.570, fuelingData: "12/06/2022"))
